@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1079px){
+    .body{
+        font-size: 18px;
+    }
+    .menu{
+        display: none;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .apresentacao-oculta{
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 18px;
+    }
+
+    .pai{
+        flex-direction: column;
+    }
+    .apresentacao{
+       display: none;
+    }
+
+
+    .foto{
+        width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .foto img{
+        text-align: center;
+    }
+
+    .apresentacao-2{
+        display: flex;
+        flex-flow: column wrap;
+       flex: 100%;
+       font-size: 16px;
+       text-align: center;
+        padding: 5%;
+    }
+
+    .apresentacao-2 p{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20px;
+    }
+
+
+    .contact-btn{
+        display: inline-block;
+        background-color: #ff2978;
+        padding: 20px;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 5px;
+        margin-bottom: 20px 0px; 
+    }
+
+    .ajuda{
+        text-align: center;
+    }
+   .objetivo{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+   }
+
+  
+
+   .card{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15px;
+   }
+
+   footer p{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5px;
+   font-size: 14px;
+   
+   }
+}
